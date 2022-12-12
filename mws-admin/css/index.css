@@ -1,0 +1,28 @@
+body{
+	background-color: #ff6347;
+}
+.admin{
+	margin-top:60px;
+}
+.admin h3{
+	margin-bottom: 30px;
+}
+.admin form{
+	background-color: 
+}
+.admin form .btn-success{
+	background-color:#34465d !important;
+	border-color:#34465d !important;
+	border-radius:0px;
+}
+.admin form .form-control{
+	border-radius: 0px !important;
+}
+.admin form .form-control:focus{
+	outline: none !important;
+	box-shadow: none !important;
+}
+.admin form .btn-success:focus{
+	outline: none !important;
+	box-shadow: none !important;
+}

@@ -1,0 +1,45 @@
+.enroll{
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+.enroll h1{
+	padding-bottom: 30px;
+	font-size: 22px;
+	font-family: pyidaungsu;
+	color:#34465d;
+}
+.enroll form .form-control{
+	border-radius: 0px !important;
+	border-color:#222;
+}
+.enroll form .form-control:focus{
+	box-shadow: none !important;
+}
+.enroll form .btn-success{
+	background-color:#FF6347 !important;
+	border-color:#FF6347 !important;
+	border-radius:0px;
+	margin-top: 10px;
+}
+.enroll form .input-group-prepend .input-group-text{
+	background-color: #FF6347 !important;
+	border:1px solid #222 !important;
+	border-radius: 0px !important;
+	color:#f3f3f3;
+}
+.enroll form .btn-success:focus{
+	outline:none !important;
+	box-shadow:none !important;
+	border:none !important;
+}
+.enroll form .form-group .error{
+	color:red;
+	font-size:12px;
+	font-family: pyidaungsu;
+}
+
+@media screen and (max-width: 700px){
+	.enroll h1{
+		font-size: 18px;
+	}
+}
